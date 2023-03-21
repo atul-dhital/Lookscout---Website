@@ -49,7 +49,7 @@ $github: #703083;
 
 // Functions
 @function trem( $px_value ) {
-    @return ( $px_value / $base-font-size ) + rem;
+    @return ( $px_value , $base-font-size ) + rem;
 }
 
 // Mixins

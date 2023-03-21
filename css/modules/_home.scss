@@ -1,0 +1,203 @@
+.hero {
+  position: relative;
+  padding: 86px 80px 0px 80px;
+  background: #2b63d9;
+  width: 100%;
+}
+.hero-wrapper {
+  padding: 46px 32px 80px 32px;
+  display: flex;
+  gap: 64px;
+  .hero__content {
+    padding: 84px 0px 0px 0px;
+    .hero__title {
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 60px;
+      color: #ffffff;
+      max-width: 600px;
+      width: 100%;
+      font-family: "Inter";
+      letter-spacing: -0.01em;
+    }
+    .hero__discription {
+      margin-top: 24px;
+      max-width: 624px;
+      width: 100%;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: -0.1px;
+      color: #b1ccfb;
+    }
+    .hero__button {
+      margin-top: 32px;
+      padding: 12px 18px;
+      background: #437ef7;
+      box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+      border-radius: 6px;
+      text-transform: capitalize;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      color: #ffffff;
+    }
+    .hero__support {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      span {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+      }
+      .hero__support__icon {
+        margin-top: 16px;
+        display: flex;
+        gap: 10px;
+        a {
+          overflow: hidden;
+          img {
+            width: 112px;
+            height: 28px;
+          }
+          &:hover {
+            img {
+              width: 120px;
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .hero__media {
+    max-width: 528px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.imp {
+  background: #ffffff;
+}
+.imp-wrapper {
+  padding: 64px 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  .imp__item {
+    display: flex;
+    span {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+      height: 48px;
+      padding: 8px;
+      border-radius: 50%;
+    }
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.1px;
+      color: #272d37;
+    }
+  }
+}
+.feature {
+  padding: 10px;
+}
+.feature__wrapper {
+  padding: 54px 70px 50px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  .feature-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .feature__heading {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      color: #272d37;
+      text-align: center;
+      letter-spacing: -0.02em;
+    }
+    .feature__dis {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #5f6d7e;
+      text-transform: capitalize;
+    }
+  }
+  .feature-container {
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    .feature__item {
+      max-width: 384px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      .feature-title {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+      }
+      .feature__discription {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #5F6D7E;
+        max-width: 384px;
+        width:100%;
+      }
+      .feature__link {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #437EF7;
+        text-transform: capitalize;
+        span{
+          margin-left: 20px;
+        }
+       &:hover{
+        span{
+          margin-left: 30px;
+          position: absolute;
+          transition: margin-left 0.3s ease-in-out;
+        }
+       }
+      }
+    }
+  }
+}
